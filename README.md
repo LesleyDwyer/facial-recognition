@@ -35,8 +35,8 @@ TO RUN the RecogniseFace function:
 3) In the Matlab command line, enter this with your arguments in quotes: 
 	RecogniseFace('IMG_name.jpg','featureType', 'classifierName') 
 4) It returns the following, for each face in the image, where id is the person's label and x-coordinate and y-coordinate is the location of the face:
-	id	x-coordinate	y-coordinate
-*NOTE: - CNN and SVM-HOG combination can not be run from here, as the CNN and SVM-HOG model files exceeded Github's file limit.
+<br/>	id	x-coordinate	y-coordinate
+<br/> *NOTE: - CNN and SVM-HOG combination can not be run from here, as the CNN and SVM-HOG model files exceeded Github's file limit.
 
 TO RUN the detectNum function:
 1) Save detectNum.m file to the same folder as the test image or video file.

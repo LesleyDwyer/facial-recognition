@@ -36,6 +36,7 @@ TO RUN the RecogniseFace function:
 	RecogniseFace('IMG_name.jpg','featureType', 'classifierName') 
 4) It returns the following, for each face in the image, where id is the person's label and x-coordinate and y-coordinate is the location of the face:
 <br/>	id	x-coordinate	y-coordinate
+<br/>
 <br/> *NOTE: - CNN and SVM-HOG combination can not be run from here, as the CNN and SVM-HOG model files exceeded Github's file limit.
 
 TO RUN the detectNum function:

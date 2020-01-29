@@ -9,10 +9,10 @@ All files:
 
 trained_models_and_supporting_files folder:
 1) bag.mat - bag created for Bag of Fatures; needed to predict with MLP_SURF
-2) CNN.mat - CNN model
+2) CNN.mat - CNN model (*Unavailable - exceeded Github's file limit)
 3) MLP_HOG.mat - MLP model with HOG features
 4) MLP_SURF.mat - MLP model with SURF features
-5) SVM_HOG.mat - SVM model with HOG features
+5) SVM_HOG.mat - SVM model with HOG features (*Unavailable - exceeded Github's file limit)
 6) SVM_SURF.mat - SVM model with SURF features
 7) trainingLabel.mat - lookup to the labels from the indexes; needed to predict with MLPs
 
@@ -28,7 +28,7 @@ other_scripts folder:
 
 TO RUN the RecogniseFace function:
 1) Save RecogniseFace.m and all files from the trained_models_and_supporting_files folder to the same folder as the test image file.
-2) The function requires the following arguments as inputs:
+2) The function requires the following arguments as inputs*:
 	- Image name, e.g. 'IMG_name.jpg'. 
 	- Classifier name. Valid values are: 'CNN', 'SVM', 'MLP'
 	- Feature type. Valid values are 'HOG', 'SURF', '' (for CNN, this is not required, so enter '')
@@ -36,6 +36,7 @@ TO RUN the RecogniseFace function:
 	RecogniseFace('IMG_name.jpg','featureType', 'classifierName') 
 4) It returns the following, for each face in the image, where id is the person's label and x-coordinate and y-coordinate is the location of the face:
 	id	x-coordinate	y-coordinate
+*NOTE: - CNN and SVM-HOG combination can not be run from here, as the CNN and SVM-HOG model files exceeded Github's file limit.
 
 TO RUN the detectNum function:
 1) Save detectNum.m file to the same folder as the test image or video file.

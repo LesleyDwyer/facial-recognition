@@ -1,4 +1,4 @@
-# facial-recognition
+# Facial recognition from photos and videos and OCR of digits in photos
 
 This is coursework for my Computer Vision module at City, University of London in 2018-19. We were given several images of our classmates (individual and group). We were tasked with preparing the image data, trying different feature types and classifier combinations for facial recognition and reporting the results. (I have removed all face images from the report that I submitted). I used HOG and SIFT feature types and CNN, MLP and SVM classifiers. We were also tasked with using OCR to recognise the digits each person was holding in the photo. Full details can be found in the report, and all code is included below. To run the code, you will need MATLAB (version R2018b was used to create this).
 
